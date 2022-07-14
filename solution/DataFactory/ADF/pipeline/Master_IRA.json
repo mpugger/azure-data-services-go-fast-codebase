@@ -1,5 +1,5 @@
 {
-	"name": "Master",
+	"name": "Master_IRA",
 	"properties": {
 		"activities": [
 			{
@@ -180,7 +180,7 @@
 									}
 								}
 							]
-						},					
+						},
 						{
 							"value": "SH_SQL_AZ_Storage_Parquet_IRA",
 							"activities": [
@@ -238,10 +238,6 @@
 									"dependsOn": [],
 									"userProperties": [],
 									"typeProperties": {
-										"pipeline": {
-											"referenceName": "Create-Task_MASTER_AZ_SQL_IRA",
-											"type": "PipelineReference"
-										},
 										"waitOnCompletion": true,
 										"parameters": {
 											"TaskObject": {
